@@ -23,7 +23,7 @@ const app = Vue.createApp({
         }
     },
 
-    // TODO: Add completed values
+    // TODO: Add computed values
     computed: {
         bookingCabinDisplay() {
             const cabin = this.product.cabins[this.booking.cabinIndex];
